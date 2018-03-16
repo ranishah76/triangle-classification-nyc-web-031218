@@ -9,7 +9,7 @@ class Triangle
    end
 
    def kind
-      validate
+     self.validate 
     if x == y && y == x && x == z
         :equilateral
       elsif (x == y || y == z || x == z) && !(x == y && y = z && x == z)
@@ -25,7 +25,7 @@ class Triangle
         else
           false
         end
-      end
+    end
 
      class TriangleError < StandardError
       # triangle error code
