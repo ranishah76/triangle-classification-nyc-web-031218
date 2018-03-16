@@ -21,15 +21,16 @@ def kind
      end
     else
      raise TriangleError
+     puts error.message
    end
   end
 
 
      class TriangleError < StandardError
       # triangle error code
-      def message 
+      def message
       puts "Oopsy"
-    end 
+    end
   end
 
 end
