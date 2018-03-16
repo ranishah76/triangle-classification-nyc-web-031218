@@ -18,6 +18,7 @@ def kind
        :scalene
      end
     else
+      begin
      raise TriangleError
    end
   end
