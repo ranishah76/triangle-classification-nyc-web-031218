@@ -21,7 +21,6 @@ def kind
      end
     else
      raise TriangleError
-     binding.pry
    end
   end
 
