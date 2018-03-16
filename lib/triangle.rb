@@ -2,7 +2,7 @@ class Triangle
   # write code here
  attr_reader :x, :y, :z
 
-   def initialize(x > 0, y > 0, z > 0)
+   def initialize(x ,y ,z)
  		  @x = x
       @y = y
       @z = z
