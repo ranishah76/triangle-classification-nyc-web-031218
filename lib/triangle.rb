@@ -10,7 +10,7 @@ class Triangle
 
    def kind
      if x && y && z > 0
-      if x == y && y == x
+      if x == y && y == x && x == z
         :equilateral
       elsif (x == y || y == z || x == z) && !(x == y && y = z && x == z)
         :isosceles
