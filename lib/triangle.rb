@@ -24,6 +24,7 @@ def kind
      raise TriangleError
      puts error.message
    end
+    end 
   end
 
 
