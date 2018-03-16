@@ -1,3 +1,5 @@
+require 'pry'
+
 class Triangle
   # write code here
  attr_reader :x, :y, :z
@@ -19,6 +21,7 @@ def kind
      end
     else
      raise TriangleError
+     binding.pry
    end
   end
 
