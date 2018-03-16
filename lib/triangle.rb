@@ -8,8 +8,8 @@ class Triangle
       @z = z
    end
 
-   def kind
-     self.validate 
+def kind
+  if x > 0 && y > 0 && z > 0
     if x == y && y == x && x == z
         :equilateral
       elsif (x == y || y == z || x == z) && !(x == y && y = z && x == z)
