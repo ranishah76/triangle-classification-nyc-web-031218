@@ -23,7 +23,6 @@ def kind
 
      class TriangleError < StandardError
       # triangle error code
-      ( x + y > z, y + z > x, z + x > y)
      end
 
 end
