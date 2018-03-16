@@ -3,9 +3,9 @@ class Triangle
  attr_reader :x, :y, :z
 
    def initialize(x ,y ,z)
- 		  @x = x > 0
-      @y = y > 0
-      @z = z > 0 
+ 		  @x = x
+      @y = y
+      @z = z  
    end
 
    def kind
