@@ -3,13 +3,13 @@ class Triangle
  attr_reader :x, :y, :z
 
    def initialize(x,y, z)
- 		  @a = a
-      @b = b
-      @c = c
+ 		  @x = x
+      @y = y
+      @z = z
    end
 
    def kind
-     if x && y && z > 0 
+     if x && y && z > 0
       if x == y && y == x
         :equilateral
       elsif x == y || y == x || x == z
