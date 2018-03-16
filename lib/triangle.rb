@@ -1,13 +1,14 @@
 class Triangle
   # write code here
- attr_accessor :x, :y, :z
+ attr_reader :x, :y, :z
 
-   def initialize(attributes)
- 		    attributes.each {|key, value| self.send(("#{key}="), value)}
- 		  end
- 		end
+   def initialize(x,y, z)
+ 		  @a = a
+      @b = b
+      @c = c
+   end
 
-    def kind
+   def kind
        if x == y && y == x
         :equilateral
       elsif x == y || y == x || x == z
