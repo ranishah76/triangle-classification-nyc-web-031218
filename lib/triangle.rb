@@ -10,5 +10,5 @@ class Triangle
     def kind
       return self
     end
-
+end 
 end
