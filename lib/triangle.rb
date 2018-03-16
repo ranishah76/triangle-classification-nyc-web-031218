@@ -16,8 +16,7 @@ def kind
         :isosceles
       else
        :scalene
-     end
-    else 
+     end 
    end
   end
 
