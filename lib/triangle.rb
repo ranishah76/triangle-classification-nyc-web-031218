@@ -8,7 +8,11 @@ class Triangle
  		end
 
     def kind
-      return self
+      puts self.
     end
- 
+
+    class TriangleError < StandardError
+      
+    end
+
 end
