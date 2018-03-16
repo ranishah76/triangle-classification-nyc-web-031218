@@ -12,7 +12,6 @@ class Triangle
 
 def kind
   if (x > 0 && y > 0 && z > 0)
-     binding.pry
     if (x == y && y == x && x == z)
         :equilateral
       elsif (x == y || y == z || x == z) && !(x == y && y = z && x == z)
@@ -20,7 +19,6 @@ def kind
       else
        :scalene
      end
-     binding.pry
     else
      raise TriangleError
      binding.pry
