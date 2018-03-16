@@ -20,10 +20,13 @@ def kind
       else
        :scalene
      end
-    else
+      else
      raise TriangleError
      puts error.message
-   end
+     end
+   else
+   raise TriangleError
+   puts error.message
     end
   end
 
