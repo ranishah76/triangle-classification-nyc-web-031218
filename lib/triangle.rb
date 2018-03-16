@@ -26,11 +26,11 @@ def kind
   end
 
 
-     class TriangleError < StandardError
-      # triangle error code
-      def message
-      puts "Oopsy"
-    end
-  end
+end
 
+class TriangleError < StandardError
+ # triangle error code
+ def message
+ puts "Oopsy"
+end
 end
