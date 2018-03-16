@@ -9,7 +9,8 @@ class Triangle
    end
 
    def kind
-       if x == y && y == x
+     if x && y && z > 0 
+      if x == y && y == x
         :equilateral
       elsif x == y || y == x || x == z
         :isosceles
@@ -17,9 +18,10 @@ class Triangle
        :scalene
          end
      end
+   end
 
      class TriangleError < StandardError
       # triangle error code
      end
-     
+
 end
