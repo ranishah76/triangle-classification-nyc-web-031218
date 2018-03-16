@@ -17,6 +17,7 @@ def kind
       else
        :scalene
      end
+    else 
    end
   end
 
