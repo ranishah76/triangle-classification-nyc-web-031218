@@ -7,5 +7,11 @@ attr_accessor :equilateral, :isosceles, :scalene
  		  end
  		end
 
+    def kind
+      return self
+    end 
+
+
+
 
 end
