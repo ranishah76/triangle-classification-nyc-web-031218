@@ -20,12 +20,6 @@ def kind
    end
   end
 
-   def validate
-    if x > 0 && y > 0 && z > 0
-        else
-          false
-        end
-    end
 
      class TriangleError < StandardError
       # triangle error code
