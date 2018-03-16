@@ -16,7 +16,9 @@ def kind
         :isosceles
       else
        :scalene
-     end 
+     end
+     begin
+      raise TriangleError
    end
   end
 
