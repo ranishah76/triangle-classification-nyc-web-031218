@@ -25,6 +25,7 @@ def kind
 
      class TriangleError < StandardError
       # triangle error code
+      puts "Oopsy"
      end
 
 end
